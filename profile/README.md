@@ -35,6 +35,11 @@ Pick a script, click Run, edit freely.
   ([live](https://concept-collection.github.io/surfacefun-interactive/)).
   Interactive surfacefun demos with live sliders (React and three.js driving a
   numbl script): refine a cubed-sphere mesh, scale a tangent vector field.
+- **[numbl-chunkie](https://github.com/concept-collection/numbl-chunkie)**
+  ([live](https://concept-collection.github.io/numbl-chunkie/)).
+  Examples for [chunkie](https://github.com/fastalgorithms/chunkie): boundary
+  integral equations in 2-D — building chunker geometries and solving Laplace,
+  Helmholtz, and Stokes problems.
 - **[numbl-image-filter](https://github.com/concept-collection/numbl-image-filter)**
   ([live](https://concept-collection.github.io/numbl-image-filter/)).
   A web app that filters an image with a numbl/MATLAB script entirely in the
