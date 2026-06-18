@@ -89,3 +89,13 @@ MATLAB-syntax projects that run in the browser via [numbl](https://numbl.org).
   ([live](https://concept-collection.github.io/gcd-visualizer/)).
   A color-coded GCD table: the greatest common divisor of every pair (i, j)
   shown as a heatmap.
+
+## Computational geometry
+
+- **[qhull-wasm-demo](https://github.com/concept-collection/qhull-wasm-demo)**
+  ([live](https://concept-collection.github.io/qhull-wasm-demo/)).
+  Interactive demos and benchmarks for
+  [qhull-wasm](https://github.com/magland/qhull-wasm)
+  ([Qhull](http://www.qhull.org) compiled to WebAssembly): 2-D Delaunay
+  triangulation, 3-D convex hull, and a Delaunay benchmark with a matching
+  script for MATLAB, Octave, and numbl.
