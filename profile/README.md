@@ -48,6 +48,9 @@ MATLAB-syntax projects that run in the browser via [numbl](https://numbl.org).
   ([live](https://concept-collection.github.io/numbl-image-filter/)).
   Upload an image, write a MATLAB-syntax filter, and run it on the image in the
   browser.
+- **[numbl-figure-viewer](https://github.com/concept-collection/numbl-figure-viewer)**
+  ([live](https://concept-collection.github.io/numbl-figure-viewer/)).
+  Open and explore a figure exported from numbl, including its underlying data.
 - **[numbl-project-example](https://github.com/concept-collection/numbl-project-example)**
   ([live](https://concept-collection.github.io/numbl-project-example/)).
   A minimal numbl project deployed to GitHub Pages, meant as a starting
