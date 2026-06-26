@@ -39,6 +39,11 @@ MATLAB-syntax projects that run in the browser via [numbl](https://numbl.org).
   surfacefun demos with live sliders, where React and three.js drive a numbl
   script. Refine a cubed-sphere mesh or scale a tangent vector field and watch
   it update.
+- **[hitandrun-interactive](https://github.com/concept-collection/hitandrun-interactive)**
+  ([live](https://concept-collection.github.io/hitandrun-interactive/)).
+  Hit-and-run MCMC sampling of a 2-D convex region, with React driving a numbl
+  script. Resample, make new regions, or play a step-by-step movie of the
+  algorithm.
 - **[numbl-chunkie](https://github.com/concept-collection/numbl-chunkie)**
   ([live](https://concept-collection.github.io/numbl-chunkie/)).
   Examples for [chunkie](https://github.com/fastalgorithms/chunkie): building
