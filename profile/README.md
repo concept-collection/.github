@@ -1,17 +1,15 @@
 # Concept Collection
 
 A set of small, independent projects: interactive demos, teaching material, and
-research code. Most run directly in the browser with nothing to install. The
-recurring themes are running MATLAB-syntax code in the browser with
-[numbl](https://numbl.org), tooling for scientific data, and visualizing
-mathematical structure.
+research code. Most run directly in the browser with nothing to install, and
+many are written in MATLAB syntax and run there via [numbl](https://numbl.org).
 
-Each project below links to its repository, and to a live page where there is
-one.
+Projects are grouped below by **application area** — physics, numerical methods,
+data compression, neurophysiology, visual math, and more — rather than by the
+technology behind them. Each links to its repository, and to a live page where
+there is one.
 
-## Run-in-browser MATLAB (numbl)
-
-MATLAB-syntax projects that run in the browser via [numbl](https://numbl.org).
+## Physics & quantum systems
 
 - **[numbl-quantum-optics](https://github.com/concept-collection/numbl-quantum-optics)**
   ([live](https://concept-collection.github.io/numbl-quantum-optics/)).
@@ -24,6 +22,9 @@ MATLAB-syntax projects that run in the browser via [numbl](https://numbl.org).
   ([arXiv:1911.04906](https://arxiv.org/abs/1911.04906)), including Ising
   dynamics, cavity-QED phase transitions, and Lindblad and non-Markovian
   evolution.
+
+## Geometry, meshing & PDE solvers
+
 - **[numbl-distmesh](https://github.com/concept-collection/numbl-distmesh)**
   ([live](https://concept-collection.github.io/numbl-distmesh/)).
   Every example from Persson and Strang's
@@ -39,6 +40,20 @@ MATLAB-syntax projects that run in the browser via [numbl](https://numbl.org).
   surfacefun demos with live sliders, where React and three.js drive a numbl
   script. Refine a cubed-sphere mesh or scale a tangent vector field and watch
   it update.
+- **[numbl-chunkie](https://github.com/concept-collection/numbl-chunkie)**
+  ([live](https://concept-collection.github.io/numbl-chunkie/)).
+  Examples for [chunkie](https://github.com/fastalgorithms/chunkie): building
+  chunker geometries in 2-D and solving Laplace, Helmholtz, and Stokes boundary
+  integral equations.
+- **[qhull-wasm-demo](https://github.com/concept-collection/qhull-wasm-demo)**
+  ([live](https://concept-collection.github.io/qhull-wasm-demo/)).
+  Demos and benchmarks for [qhull-wasm](https://github.com/magland/qhull-wasm),
+  which compiles [Qhull](http://www.qhull.org) to WebAssembly. Includes 2-D
+  Delaunay triangulation, 3-D convex hull, and a Delaunay benchmark with
+  matching scripts for MATLAB, Octave, and numbl.
+
+## Monte Carlo & sampling
+
 - **[hitandrun-interactive](https://github.com/concept-collection/hitandrun-interactive)**
   ([live](https://concept-collection.github.io/hitandrun-interactive/)).
   Hit-and-run MCMC sampling of a 2-D convex region, with React driving a numbl
@@ -49,28 +64,8 @@ MATLAB-syntax projects that run in the browser via [numbl](https://numbl.org).
   WALNUTS (the within-orbit adaptive leapfrog No-U-Turn Sampler) drawing from a
   2-D banana target, with React driving a numbl script. Tune the leapfrog step
   and error tolerance, or play a step-by-step movie of the orbit-building.
-- **[numbl-chunkie](https://github.com/concept-collection/numbl-chunkie)**
-  ([live](https://concept-collection.github.io/numbl-chunkie/)).
-  Examples for [chunkie](https://github.com/fastalgorithms/chunkie): building
-  chunker geometries in 2-D and solving Laplace, Helmholtz, and Stokes boundary
-  integral equations.
-- **[numbl-image-filter](https://github.com/concept-collection/numbl-image-filter)**
-  ([live](https://concept-collection.github.io/numbl-image-filter/)).
-  Upload an image, write a MATLAB-syntax filter, and run it on the image in the
-  browser.
-- **[numbl-figure-viewer](https://github.com/concept-collection/numbl-figure-viewer)**
-  ([live](https://concept-collection.github.io/numbl-figure-viewer/)).
-  Open and explore a figure exported from numbl, including its underlying data.
-- **[numbl-project-example](https://github.com/concept-collection/numbl-project-example)**
-  ([live](https://concept-collection.github.io/numbl-project-example/)).
-  A minimal numbl project deployed to GitHub Pages, meant as a starting
-  template.
-- **[numbl-embed-example](https://github.com/concept-collection/numbl-embed-example)**
-  ([live](https://concept-collection.github.io/numbl-embed-example/)).
-  Shows how to embed editable, runnable numbl scripts inside Markdown rendered
-  on GitHub Pages.
 
-## Data compression
+## Scientific data compression
 
 - **[benchcompress](https://github.com/concept-collection/benchcompress)**
   ([results](https://concept-collection.github.io/benchcompress/),
@@ -85,7 +80,7 @@ MATLAB-syntax projects that run in the browser via [numbl](https://numbl.org).
   A step-by-step visualizer for the Asymmetric Numeral Systems (ANS)
   entropy-coding algorithm ([Duda et al., 2015](https://ieeexplore.ieee.org/abstract/document/7170048)).
 
-## Neurophysiology data and remote access
+## Neurophysiology data & remote access
 
 - **[remote-hdf5-lazy-read](https://github.com/concept-collection/remote-hdf5-lazy-read)**
   ([live](https://concept-collection.github.io/remote-hdf5-lazy-read/)).
@@ -98,7 +93,7 @@ MATLAB-syntax projects that run in the browser via [numbl](https://numbl.org).
   [DANDI Dandiset 000986](https://dandiarchive.org/dandiset/000986), a set of
   mouse auditory cortex recordings.
 
-## Mathematical visualizers
+## Number theory & visual math
 
 - **[finite-field-visualizer](https://github.com/concept-collection/finite-field-visualizer)**
   ([live](https://concept-collection.github.io/finite-field-visualizer/)).
@@ -109,11 +104,26 @@ MATLAB-syntax projects that run in the browser via [numbl](https://numbl.org).
   A heatmap of the greatest common divisor of every pair (i, j), laid out as a
   color-coded table.
 
-## Computational geometry
+## Image processing
 
-- **[qhull-wasm-demo](https://github.com/concept-collection/qhull-wasm-demo)**
-  ([live](https://concept-collection.github.io/qhull-wasm-demo/)).
-  Demos and benchmarks for [qhull-wasm](https://github.com/magland/qhull-wasm),
-  which compiles [Qhull](http://www.qhull.org) to WebAssembly. Includes 2-D
-  Delaunay triangulation, 3-D convex hull, and a Delaunay benchmark with
-  matching scripts for MATLAB, Octave, and numbl.
+- **[numbl-image-filter](https://github.com/concept-collection/numbl-image-filter)**
+  ([live](https://concept-collection.github.io/numbl-image-filter/)).
+  Upload an image, write a MATLAB-syntax filter, and run it on the image in the
+  browser.
+
+## numbl platform: templates & tooling
+
+Utilities and starting points for building your own
+[numbl](https://numbl.org) projects.
+
+- **[numbl-figure-viewer](https://github.com/concept-collection/numbl-figure-viewer)**
+  ([live](https://concept-collection.github.io/numbl-figure-viewer/)).
+  Open and explore a figure exported from numbl, including its underlying data.
+- **[numbl-project-example](https://github.com/concept-collection/numbl-project-example)**
+  ([live](https://concept-collection.github.io/numbl-project-example/)).
+  A minimal numbl project deployed to GitHub Pages, meant as a starting
+  template.
+- **[numbl-embed-example](https://github.com/concept-collection/numbl-embed-example)**
+  ([live](https://concept-collection.github.io/numbl-embed-example/)).
+  Shows how to embed editable, runnable numbl scripts inside Markdown rendered
+  on GitHub Pages.
