@@ -59,10 +59,6 @@ there is one.
   Hit-and-run MCMC sampling of a 2-D convex region, with React driving a numbl
   script. Resample, make new regions, or play a step-by-step movie of the
   algorithm.
-- **[hitandrun-commonview](https://github.com/concept-collection/hitandrun-commonview)**
-  ([live](https://concept-collection.github.io/hitandrun-commonview/)).
-  The hit-and-run figure with a single live view shared by all visitors over a
-  WebRTC mesh; one peer runs the sampler via numbl and broadcasts to the rest.
 - **[walnuts-interactive](https://github.com/concept-collection/walnuts-interactive)**
   ([live](https://concept-collection.github.io/walnuts-interactive/#figure/sampler)).
   WALNUTS (the within-orbit adaptive leapfrog No-U-Turn Sampler) drawing from a
@@ -76,6 +72,10 @@ there is one.
   A minimal peer-to-peer page where every visitor shares one state (a counter):
   nostr discovery, a WebRTC mesh, and a central-peer authority. The basis for
   hitandrun-commonview.
+- **[hitandrun-commonview](https://github.com/concept-collection/hitandrun-commonview)**
+  ([live](https://concept-collection.github.io/hitandrun-commonview/)).
+  The hit-and-run figure with a single live view shared by all visitors over a
+  WebRTC mesh; one peer runs the sampler via numbl and broadcasts to the rest.
 
 ## Scientific data compression
 
