@@ -55,12 +55,12 @@ there is one.
 ## Monte Carlo & sampling
 
 - **[hitandrun-interactive](https://github.com/concept-collection/hitandrun-interactive)**
-  ([live](https://concept-collection.github.io/hitandrun-interactive/)).
+  ([live](https://concept-collection.github.io/hitandrun-interactive/#figure/sampler)).
   Hit-and-run MCMC sampling of a 2-D convex region, with React driving a numbl
   script. Resample, make new regions, or play a step-by-step movie of the
   algorithm.
 - **[walnuts-interactive](https://github.com/concept-collection/walnuts-interactive)**
-  ([live](https://concept-collection.github.io/walnuts-interactive/)).
+  ([live](https://concept-collection.github.io/walnuts-interactive/#figure/sampler)).
   WALNUTS (the within-orbit adaptive leapfrog No-U-Turn Sampler) drawing from a
   2-D banana target, with React driving a numbl script. Tune the leapfrog step
   and error tolerance, or play a step-by-step movie of the orbit-building.
