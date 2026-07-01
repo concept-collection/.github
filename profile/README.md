@@ -69,6 +69,14 @@ there is one.
   2-D banana target, with React driving a numbl script. Tune the leapfrog step
   and error tolerance, or play a step-by-step movie of the orbit-building.
 
+## Peer-to-peer shared state
+
+- **[commonview](https://github.com/concept-collection/commonview)**
+  ([live](https://concept-collection.github.io/commonview/)).
+  A minimal peer-to-peer page where every visitor shares one state (a counter):
+  nostr discovery, a WebRTC mesh, and a central-peer authority. The basis for
+  hitandrun-commonview.
+
 ## Scientific data compression
 
 - **[benchcompress](https://github.com/concept-collection/benchcompress)**
