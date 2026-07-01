@@ -61,10 +61,8 @@ there is one.
   algorithm.
 - **[hitandrun-commonview](https://github.com/concept-collection/hitandrun-commonview)**
   ([live](https://concept-collection.github.io/hitandrun-commonview/)).
-  The hit-and-run figure with one view shared live by every visitor: peers
-  form a WebRTC mesh (nostr discovery), and the oldest peer runs the sampler
-  via numbl in a web worker and broadcasts the parameters, samples, and movie
-  to everyone. If it leaves, the next-oldest takes over.
+  The hit-and-run figure with a single live view shared by all visitors over a
+  WebRTC mesh; one peer runs the sampler via numbl and broadcasts to the rest.
 - **[walnuts-interactive](https://github.com/concept-collection/walnuts-interactive)**
   ([live](https://concept-collection.github.io/walnuts-interactive/#figure/sampler)).
   WALNUTS (the within-orbit adaptive leapfrog No-U-Turn Sampler) drawing from a
