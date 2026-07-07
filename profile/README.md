@@ -65,6 +65,11 @@ there is one.
   2-D banana target, with React driving a numbl script. Tune the leapfrog step
   and error tolerance, or play a step-by-step movie of the orbit-building.
 
+- **[stan-web-ide](https://github.com/concept-collection/stan-web-ide)**
+  ([live](https://concept-collection.github.io/stan-web-ide/)).
+  Run [Stan](https://mc-stan.org) sampling in your browser, in a VS Code-style
+  IDE.
+
 ## Peer-to-peer shared state
 
 - **[commonview](https://github.com/concept-collection/commonview)**
@@ -128,6 +133,9 @@ there is one.
 Utilities and starting points for building your own
 [numbl](https://numbl.org) projects.
 
+- **[numbl-web-ide](https://github.com/concept-collection/numbl-web-ide)**
+  ([live](https://concept-collection.github.io/numbl-web-ide/)).
+  Run MATLAB-syntax .m files in your browser, in a VS Code-style IDE.
 - **[numbl-figure-viewer](https://github.com/concept-collection/numbl-figure-viewer)**
   ([live](https://concept-collection.github.io/numbl-figure-viewer/)).
   Open and explore a figure exported from numbl, including its underlying data.
