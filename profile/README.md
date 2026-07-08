@@ -50,6 +50,11 @@ there is one.
   Convert meshes between 19 formats (PLY, OBJ, STL, VTK, Gmsh, XDMF, …) with
   [meshio](https://github.com/nschloe/meshio) running in-browser on Pyodide;
   inspect meshes in 3D and see what a lossy export would drop.
+- **[mesh-pde-solver](https://github.com/concept-collection/mesh-pde-solver)**
+  ([live](https://concept-collection.github.io/mesh-pde-solver/)).
+  Upload a quad surface mesh and solve Poisson or Helmholtz problems on it
+  with [surfacefun](https://github.com/danfortunato/surfacefun), entirely in
+  the browser; the solution renders in a rotatable 3D view.
 - **[qhull-wasm-demo](https://github.com/concept-collection/qhull-wasm-demo)**
   ([live](https://concept-collection.github.io/qhull-wasm-demo/)).
   Demos and benchmarks for [qhull-wasm](https://github.com/magland/qhull-wasm),
