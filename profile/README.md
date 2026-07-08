@@ -45,6 +45,11 @@ there is one.
   Examples for [chunkie](https://github.com/fastalgorithms/chunkie): building
   chunker geometries in 2-D and solving Laplace, Helmholtz, and Stokes boundary
   integral equations.
+- **[mesh-converter](https://github.com/concept-collection/mesh-converter)**
+  ([live](https://concept-collection.github.io/mesh-converter/)).
+  Convert meshes between 19 formats (PLY, OBJ, STL, VTK, Gmsh, XDMF, …) with
+  [meshio](https://github.com/nschloe/meshio) running in-browser on Pyodide;
+  inspect meshes in 3D and see what a lossy export would drop.
 - **[qhull-wasm-demo](https://github.com/concept-collection/qhull-wasm-demo)**
   ([live](https://concept-collection.github.io/qhull-wasm-demo/)).
   Demos and benchmarks for [qhull-wasm](https://github.com/magland/qhull-wasm),
