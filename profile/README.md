@@ -60,6 +60,12 @@ there is one.
   Build CAD primitives or import STEP/IGES with
   [OpenCASCADE.js](https://ocjs.org/), then inspect them in 3D — including each
   face's true NURBS surface (polynomials on faces), not just its triangulation.
+- **[abc-step-1000](https://github.com/concept-collection/abc-step-1000)**
+  ([live](https://concept-collection.github.io/abc-step-1000/)).
+  The first 1000 STEP files from the
+  [ABC dataset](https://deep-geometry.github.io/abc-dataset/) of CAD models
+  (Koch et al., CVPR 2019), served gzip-compressed with a JSON manifest for
+  direct download.
 - **[qhull-wasm-demo](https://github.com/concept-collection/qhull-wasm-demo)**
   ([live](https://concept-collection.github.io/qhull-wasm-demo/)).
   Demos and benchmarks for [qhull-wasm](https://github.com/magland/qhull-wasm),
