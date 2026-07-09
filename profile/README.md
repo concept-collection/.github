@@ -55,6 +55,11 @@ there is one.
   Upload a quad surface mesh and solve Poisson or Helmholtz problems on it
   with [surfacefun](https://github.com/danfortunato/surfacefun), entirely in
   the browser; the solution renders in a rotatable 3D view.
+- **[mesh-studio](https://github.com/concept-collection/mesh-studio)**
+  ([live](https://concept-collection.github.io/mesh-studio/)).
+  Build CAD primitives or import STEP/IGES with
+  [OpenCASCADE.js](https://ocjs.org/), then inspect them in 3D — including each
+  face's true NURBS surface (polynomials on faces), not just its triangulation.
 - **[qhull-wasm-demo](https://github.com/concept-collection/qhull-wasm-demo)**
   ([live](https://concept-collection.github.io/qhull-wasm-demo/)).
   Demos and benchmarks for [qhull-wasm](https://github.com/magland/qhull-wasm),
