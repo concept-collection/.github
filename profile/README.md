@@ -157,6 +157,10 @@ Utilities and starting points for building your own
 - **[numbl-web-ide](https://github.com/concept-collection/numbl-web-ide)**
   ([live](https://concept-collection.github.io/numbl-web-ide/)).
   Run MATLAB-syntax .m files in your browser, in a VS Code-style IDE.
+- **[jupyterlite-numbl-kernel](https://github.com/concept-collection/jupyterlite-numbl-kernel)**
+  ([live](https://concept-collection.github.io/jupyterlite-numbl-kernel/)).
+  A JupyterLite kernel that runs numbl in notebook cells entirely in the
+  browser, with inline figures and mip packages.
 - **[numbl-figure-viewer](https://github.com/concept-collection/numbl-figure-viewer)**
   ([live](https://concept-collection.github.io/numbl-figure-viewer/)).
   Open and explore a figure exported from numbl, including its underlying data.
