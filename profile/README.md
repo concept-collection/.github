@@ -4,11 +4,34 @@ A set of small, independent projects: interactive demos, teaching material, and
 research code. Most run directly in the browser with nothing to install, and
 many are written in MATLAB syntax and run there via [numbl](https://numbl.org).
 
-Projects are grouped below by **application area** — sampling, geometry and
-meshing, visual math, neurophysiology, data compression, physics, and more —
-rather than by the technology behind them. The most interactive and visual
-demos come first; utilities, datasets, and templates are toward the end. Each
-links to its repository, and to a live page where there is one.
+Projects are grouped below by **application area** — the numbl platform,
+sampling, geometry and meshing, neurophysiology, data compression, physics,
+visual math, and more — rather than by the technology behind them. Each links to
+its repository, and to a live page where there is one.
+
+## numbl platform: templates & tooling
+
+Utilities and starting points for building your own
+[numbl](https://numbl.org) projects.
+
+- **[numbl-web-ide](https://github.com/concept-collection/numbl-web-ide)**
+  ([live](https://concept-collection.github.io/numbl-web-ide/)).
+  Run MATLAB-syntax .m files in your browser, in a VS Code-style IDE.
+- **[jupyterlite-numbl-kernel](https://github.com/concept-collection/jupyterlite-numbl-kernel)**
+  ([live](https://concept-collection.github.io/jupyterlite-numbl-kernel/)).
+  A JupyterLite kernel that runs numbl in notebook cells entirely in the
+  browser, with inline figures and mip packages.
+- **[numbl-figure-viewer](https://github.com/concept-collection/numbl-figure-viewer)**
+  ([live](https://concept-collection.github.io/numbl-figure-viewer/)).
+  Open and explore a figure exported from numbl, including its underlying data.
+- **[numbl-project-example](https://github.com/concept-collection/numbl-project-example)**
+  ([live](https://concept-collection.github.io/numbl-project-example/)).
+  A minimal numbl project deployed to GitHub Pages, meant as a starting
+  template.
+- **[numbl-embed-example](https://github.com/concept-collection/numbl-embed-example)**
+  ([live](https://concept-collection.github.io/numbl-embed-example/)).
+  Shows how to embed editable, runnable numbl scripts inside Markdown rendered
+  on GitHub Pages.
 
 ## Monte Carlo & sampling
 
@@ -89,17 +112,6 @@ links to its repository, and to a live page where there is one.
   (Koch et al., CVPR 2019), served gzip-compressed with a JSON manifest for
   direct download.
 
-## Number theory & visual math
-
-- **[finite-field-visualizer](https://github.com/concept-collection/finite-field-visualizer)**
-  ([live](https://concept-collection.github.io/finite-field-visualizer/)).
-  Color-coded multiplication tables over finite (prime) fields. Step through the
-  primes to watch the structure change.
-- **[gcd-visualizer](https://github.com/concept-collection/gcd-visualizer)**
-  ([live](https://concept-collection.github.io/gcd-visualizer/)).
-  A heatmap of the greatest common divisor of every pair (i, j), laid out as a
-  color-coded table.
-
 ## Linear algebra & performance
 
 - **[matmul-bench](https://github.com/concept-collection/matmul-bench)**
@@ -158,26 +170,13 @@ links to its repository, and to a live page where there is one.
   Upload an image, write a MATLAB-syntax filter, and run it on the image in the
   browser.
 
-## numbl platform: templates & tooling
+## Number theory & visual math
 
-Utilities and starting points for building your own
-[numbl](https://numbl.org) projects.
-
-- **[numbl-web-ide](https://github.com/concept-collection/numbl-web-ide)**
-  ([live](https://concept-collection.github.io/numbl-web-ide/)).
-  Run MATLAB-syntax .m files in your browser, in a VS Code-style IDE.
-- **[jupyterlite-numbl-kernel](https://github.com/concept-collection/jupyterlite-numbl-kernel)**
-  ([live](https://concept-collection.github.io/jupyterlite-numbl-kernel/)).
-  A JupyterLite kernel that runs numbl in notebook cells entirely in the
-  browser, with inline figures and mip packages.
-- **[numbl-figure-viewer](https://github.com/concept-collection/numbl-figure-viewer)**
-  ([live](https://concept-collection.github.io/numbl-figure-viewer/)).
-  Open and explore a figure exported from numbl, including its underlying data.
-- **[numbl-project-example](https://github.com/concept-collection/numbl-project-example)**
-  ([live](https://concept-collection.github.io/numbl-project-example/)).
-  A minimal numbl project deployed to GitHub Pages, meant as a starting
-  template.
-- **[numbl-embed-example](https://github.com/concept-collection/numbl-embed-example)**
-  ([live](https://concept-collection.github.io/numbl-embed-example/)).
-  Shows how to embed editable, runnable numbl scripts inside Markdown rendered
-  on GitHub Pages.
+- **[finite-field-visualizer](https://github.com/concept-collection/finite-field-visualizer)**
+  ([live](https://concept-collection.github.io/finite-field-visualizer/)).
+  Color-coded multiplication tables over finite (prime) fields. Step through the
+  primes to watch the structure change.
+- **[gcd-visualizer](https://github.com/concept-collection/gcd-visualizer)**
+  ([live](https://concept-collection.github.io/gcd-visualizer/)).
+  A heatmap of the greatest common divisor of every pair (i, j), laid out as a
+  color-coded table.
