@@ -100,6 +100,15 @@ links to its repository, and to a live page where there is one.
   A heatmap of the greatest common divisor of every pair (i, j), laid out as a
   color-coded table.
 
+## Linear algebra & performance
+
+- **[matmul-bench](https://github.com/concept-collection/matmul-bench)**
+  ([live](https://concept-collection.github.io/matmul-bench/)).
+  Benchmarks matrix-matrix multiply (GEMM) in the browser across a plain JS
+  triple loop, a WebGPU compute shader, hand-written C compiled to WASM (SIMD
+  and threads), and a real BLAS ([libFLAME](https://github.com/concept-collection/libflame2wasm)/BLIS)
+  compiled to WASM — with a native OpenBLAS reference for comparison.
+
 ## Neurophysiology data & remote access
 
 - **[remote-hdf5-lazy-read](https://github.com/concept-collection/remote-hdf5-lazy-read)**
