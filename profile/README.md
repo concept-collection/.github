@@ -1,12 +1,12 @@
 # Concept Collection
 
-This is a collection of random proof-of-concept projects, most of which are demos that can be run entirely in the web browser (client side). Many of them are centered around the [numbl project](https://numbl.org).
+This is a collection of random small projects and demos, most of which can be run entirely in the web browser (client side). Many of them are centered around the [numbl project](https://numbl.org).
 
-## jupyterlite-numbl-kernel
+## MATLAB syntax in Jupyter, all in the browser
 
 Here's a proof of concept for running MATLAB syntax in Jupyter entirely client side (no kernel, no server). It uses numbl and JupyterLite.
 
-[Repository](https://github.com/concept-collection/jupyterlite-numbl-kernel) · [Live](https://concept-collection.github.io/jupyterlite-numbl-kernel/)
+- **[jupyterlite-numbl-kernel](https://github.com/concept-collection/jupyterlite-numbl-kernel)** · [live](https://concept-collection.github.io/jupyterlite-numbl-kernel/)
 
 ## Interactive MCMC samplers
 
@@ -24,7 +24,7 @@ Here are a couple of projects that let you embed or host your own numbl/MATLAB p
 
 ## VS Code–style IDEs
 
-Here are a couple of VS Code–style IDEs that run entirely in the browser — one for MATLAB syntax (via numbl), one for Stan.
+Here are a couple of VS Code–style IDEs that run entirely in the browser: one for MATLAB syntax (via numbl), one for Stan.
 
 - **[numbl-web-ide](https://github.com/concept-collection/numbl-web-ide)** · [live](https://concept-collection.github.io/numbl-web-ide/)
 - **[stan-web-ide](https://github.com/concept-collection/stan-web-ide)** · [live](https://concept-collection.github.io/stan-web-ide/)
@@ -57,18 +57,11 @@ Here's a demo of reading large remote HDF5 files, such as [NWB](https://www.nwb.
 
 ## Scientific data compression
 
-- **[ans-visualizer](https://github.com/concept-collection/ans-visualizer)**
-  ([live](https://concept-collection.github.io/ans-visualizer/)).
-  A step-by-step visualizer for the Asymmetric Numeral Systems (ANS)
-  entropy-coding algorithm ([Duda et al., 2015](https://ieeexplore.ieee.org/abstract/document/7170048)).
-- **[benchcompress](https://github.com/concept-collection/benchcompress)**
-  ([results](https://concept-collection.github.io/benchcompress/),
-  [paper (WIP)](https://concept-collection.github.io/benchcompress/paper)).
-  A benchmarking framework that measures compression ratio and encode/decode
-  throughput for compression algorithms on scientific data arrays.
-- **[ephys_compression_tests](https://github.com/concept-collection/ephys_compression_tests)**
-  ([results](https://concept-collection.github.io/ephys_compression_tests/)).
-  Compression benchmarks for electrophysiology recordings.
+Here are a few projects on compressing scientific data: a step-by-step visualizer for the [Asymmetric Numeral Systems (ANS)](https://ieeexplore.ieee.org/abstract/document/7170048) entropy-coding algorithm, a framework for benchmarking compression algorithms on scientific data arrays, and compression benchmarks for electrophysiology recordings.
+
+- **[ans-visualizer](https://github.com/concept-collection/ans-visualizer)** · [live](https://concept-collection.github.io/ans-visualizer/)
+- **[benchcompress](https://github.com/concept-collection/benchcompress)** · [results](https://concept-collection.github.io/benchcompress/) · [paper (WIP)](https://concept-collection.github.io/benchcompress/paper)
+- **[ephys_compression_tests](https://github.com/concept-collection/ephys_compression_tests)** · [results](https://concept-collection.github.io/ephys_compression_tests/)
 
 ## Other projects
 
