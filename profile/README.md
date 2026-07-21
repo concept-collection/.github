@@ -1,138 +1,59 @@
 # Concept Collection
 
-A set of small, independent projects: interactive demos, teaching material, and
-research code. Most run directly in the browser with nothing to install, and
-many are written in MATLAB syntax and run there via [numbl](https://numbl.org).
+This is a collection of random proof-of-concept projects, most of which are demos that can be run entirely in the web browser (client side). Many of them are centered around the [numbl project](https://numbl.org).
 
-Projects are grouped below by **application area** — the numbl platform,
-sampling, geometry and meshing, neurophysiology, data compression, physics,
-visual math, and more — rather than by the technology behind them. Each links to
-its repository, and to a live page where there is one.
+## jupyterlite-numbl-kernel
 
-## numbl platform: templates & tooling
+Here's a proof of concept for running MATLAB syntax in Jupyter entirely client side (no kernel, no server). It uses numbl and JupyterLite.
 
-Utilities and starting points for building your own
-[numbl](https://numbl.org) projects.
+[Repository](https://github.com/concept-collection/jupyterlite-numbl-kernel) · [Live](https://concept-collection.github.io/jupyterlite-numbl-kernel/)
 
-- **[numbl-web-ide](https://github.com/concept-collection/numbl-web-ide)**
-  ([live](https://concept-collection.github.io/numbl-web-ide/)).
-  Run MATLAB-syntax .m files in your browser, in a VS Code-style IDE.
-- **[jupyterlite-numbl-kernel](https://github.com/concept-collection/jupyterlite-numbl-kernel)**
-  ([live](https://concept-collection.github.io/jupyterlite-numbl-kernel/)).
-  A JupyterLite kernel that runs numbl in notebook cells entirely in the
-  browser, with inline figures and mip packages.
-- **[numbl-figure-viewer](https://github.com/concept-collection/numbl-figure-viewer)**
-  ([live](https://concept-collection.github.io/numbl-figure-viewer/)).
-  Open and explore a figure exported from numbl, including its underlying data.
-- **[numbl-project-example](https://github.com/concept-collection/numbl-project-example)**
-  ([live](https://concept-collection.github.io/numbl-project-example/)).
-  A minimal numbl project deployed to GitHub Pages, meant as a starting
-  template.
-- **[numbl-embed-example](https://github.com/concept-collection/numbl-embed-example)**
-  ([live](https://concept-collection.github.io/numbl-embed-example/)).
-  Shows how to embed editable, runnable numbl scripts inside Markdown rendered
-  on GitHub Pages.
+## Interactive MCMC samplers
 
-## Monte Carlo & sampling
+Here are a couple of demonstrations of MCMC samplers that you can watch run. They use numbl (MATLAB syntax in the browser) to do the sampling client-side in the browser. In the case of WALNUTS (the within-orbit adaptive leapfrog No-U-Turn Sampler), we use the exact MATLAB code that is a companion to the paper.
 
-- **[hitandrun-interactive](https://github.com/concept-collection/hitandrun-interactive)**
-  ([live](https://concept-collection.github.io/hitandrun-interactive/#figure/sampler)).
-  Hit-and-run MCMC sampling of a 2-D convex region, with React driving a numbl
-  script. Resample, make new regions, or play a step-by-step movie of the
-  algorithm.
-- **[walnuts-interactive](https://github.com/concept-collection/walnuts-interactive)**
-  ([live](https://concept-collection.github.io/walnuts-interactive/#figure/sampler)).
-  WALNUTS (the within-orbit adaptive leapfrog No-U-Turn Sampler) drawing from a
-  2-D banana target, with React driving a numbl script. Tune the leapfrog step
-  and error tolerance, or play a step-by-step movie of the orbit-building.
-- **[stan-web-ide](https://github.com/concept-collection/stan-web-ide)**
-  ([live](https://concept-collection.github.io/stan-web-ide/)).
-  Run [Stan](https://mc-stan.org) sampling in your browser, in a VS Code-style
-  IDE.
+- **[hitandrun-interactive](https://github.com/concept-collection/hitandrun-interactive)** · [live](https://concept-collection.github.io/hitandrun-interactive/#figure/sampler)
+- **[walnuts-interactive](https://github.com/concept-collection/walnuts-interactive)** · [live](https://concept-collection.github.io/walnuts-interactive/#figure/sampler)
 
-## Peer-to-peer shared state
+## Embedding & hosting numbl projects
 
-- **[hitandrun-commonview](https://github.com/concept-collection/hitandrun-commonview)**
-  ([live](https://concept-collection.github.io/hitandrun-commonview/)).
-  The hit-and-run figure with a single live view shared by all visitors over a
-  WebRTC mesh; one peer runs the sampler via numbl and broadcasts to the rest.
-- **[commonview](https://github.com/concept-collection/commonview)**
-  ([live](https://concept-collection.github.io/commonview/)).
-  A minimal peer-to-peer page where every visitor shares one state (a counter):
-  nostr discovery, a WebRTC mesh, and a central-peer authority. The basis for
-  hitandrun-commonview.
+Here are a couple of projects that let you embed or host your own numbl/MATLAB projects entirely client side.
 
-## Geometry, meshing & PDE solvers
+- **[numbl-embed-example](https://github.com/concept-collection/numbl-embed-example)** · [live](https://concept-collection.github.io/numbl-embed-example/)
+- **[numbl-project-example](https://github.com/concept-collection/numbl-project-example)** · [live](https://concept-collection.github.io/numbl-project-example/)
 
-- **[surfacefun-interactive](https://github.com/concept-collection/surfacefun-interactive)**
-  ([live](https://concept-collection.github.io/surfacefun-interactive/)).
-  surfacefun demos with live sliders, where React and three.js drive a numbl
-  script. Refine a cubed-sphere mesh or scale a tangent vector field and watch
-  it update.
-- **[mesh-studio](https://github.com/concept-collection/mesh-studio)**
-  ([live](https://concept-collection.github.io/mesh-studio/)).
-  Build CAD primitives or import STEP/IGES with
-  [OpenCASCADE.js](https://ocjs.org/), then inspect them in 3D — including each
-  face's true NURBS surface (polynomials on faces), not just its triangulation.
-- **[mesh-converter](https://github.com/concept-collection/mesh-converter)**
-  ([live](https://concept-collection.github.io/mesh-converter/)).
-  Convert meshes between 19 formats (PLY, OBJ, STL, VTK, Gmsh, XDMF, …) with
-  [meshio](https://github.com/nschloe/meshio) running in-browser on Pyodide;
-  inspect meshes in 3D and see what a lossy export would drop.
-- **[mesh-pde-solver](https://github.com/concept-collection/mesh-pde-solver)**
-  ([live](https://concept-collection.github.io/mesh-pde-solver/)).
-  Upload a quad surface mesh and solve Poisson or Helmholtz problems on it
-  with [surfacefun](https://github.com/danfortunato/surfacefun), entirely in
-  the browser; the solution renders in a rotatable 3D view.
-- **[qhull-wasm-demo](https://github.com/concept-collection/qhull-wasm-demo)**
-  ([live](https://concept-collection.github.io/qhull-wasm-demo/)).
-  Demos and benchmarks for [qhull-wasm](https://github.com/magland/qhull-wasm),
-  which compiles [Qhull](http://www.qhull.org) to WebAssembly. Includes 2-D
-  Delaunay triangulation, 3-D convex hull, and a Delaunay benchmark with
-  matching scripts for MATLAB, Octave, and numbl.
-- **[numbl-distmesh](https://github.com/concept-collection/numbl-distmesh)**
-  ([live](https://concept-collection.github.io/numbl-distmesh/)).
-  Every example from Persson and Strang's
-  [DistMesh](https://github.com/popersson/DistMesh), meshing 2-D regions and
-  surfaces from signed distance functions.
-- **[numbl-surfacefun-intro](https://github.com/concept-collection/numbl-surfacefun-intro)**
-  ([live](https://concept-collection.github.io/numbl-surfacefun-intro/)).
-  An introduction to [surfacefun](https://github.com/danfortunato/surfacefun),
-  which computes with functions on surfaces and solves PDEs on them to high
-  order.
-- **[numbl-chunkie](https://github.com/concept-collection/numbl-chunkie)**
-  ([live](https://concept-collection.github.io/numbl-chunkie/)).
-  Examples for [chunkie](https://github.com/fastalgorithms/chunkie): building
-  chunker geometries in 2-D and solving Laplace, Helmholtz, and Stokes boundary
-  integral equations.
-- **[abc-step-1000](https://github.com/concept-collection/abc-step-1000)**
-  ([live](https://concept-collection.github.io/abc-step-1000/)).
-  The first 1000 STEP files from the
-  [ABC dataset](https://deep-geometry.github.io/abc-dataset/) of CAD models
-  (Koch et al., CVPR 2019), served gzip-compressed with a JSON manifest for
-  direct download.
+## VS Code–style IDEs
 
-## Linear algebra & performance
+Here are a couple of VS Code–style IDEs that run entirely in the browser — one for MATLAB syntax (via numbl), one for Stan.
 
-- **[matmul-bench](https://github.com/concept-collection/matmul-bench)**
-  ([live](https://concept-collection.github.io/matmul-bench/)).
-  Benchmarks matrix-matrix multiply (GEMM) in the browser across a plain JS
-  triple loop, a WebGPU compute shader, hand-written C compiled to WASM (SIMD
-  and threads), and a real BLAS ([libFLAME](https://github.com/concept-collection/libflame2wasm)/BLIS)
-  compiled to WASM — with a native OpenBLAS reference for comparison.
+- **[numbl-web-ide](https://github.com/concept-collection/numbl-web-ide)** · [live](https://concept-collection.github.io/numbl-web-ide/)
+- **[stan-web-ide](https://github.com/concept-collection/stan-web-ide)** · [live](https://concept-collection.github.io/stan-web-ide/)
 
-## Neurophysiology data & remote access
+## surfacefun examples
 
-- **[remote-hdf5-lazy-read](https://github.com/concept-collection/remote-hdf5-lazy-read)**
-  ([live](https://concept-collection.github.io/remote-hdf5-lazy-read/)).
-  Shows how [neurosift](https://neurosift.app/) browses large remote
-  [NWB](https://www.nwb.org/)/HDF5 files in the browser using HTTP range
-  requests, with no full download and no backend.
-- **[dandiset_000986](https://github.com/concept-collection/dandiset_000986)**
-  ([visualizations](https://concept-collection.github.io/dandiset_000986/)).
-  Reproducible figures and visualizations for
-  [DANDI Dandiset 000986](https://dandiarchive.org/dandiset/000986), a set of
-  mouse auditory cortex recordings.
+[Surfacefun](https://surfacefun.readthedocs.io/en/latest/) is a MATLAB package for computing with functions defined on surfaces and solving PDEs on them to high order. Here are some examples that run surfacefun via numbl in the browser.
+
+- **[numbl-surfacefun-intro](https://github.com/concept-collection/numbl-surfacefun-intro)** · [live](https://concept-collection.github.io/numbl-surfacefun-intro/)
+- **[surfacefun-interactive](https://github.com/concept-collection/surfacefun-interactive)** · [live](https://concept-collection.github.io/surfacefun-interactive/)
+- **[mesh-pde-solver](https://github.com/concept-collection/mesh-pde-solver)** · [live](https://concept-collection.github.io/mesh-pde-solver/)
+
+## chunkie examples
+
+[Chunkie](https://chunkie.readthedocs.io/en/latest/) is a MATLAB package for solving boundary integral equations in two dimensions. Here are some examples that run chunkie via numbl in the browser.
+
+- **[numbl-chunkie](https://github.com/concept-collection/numbl-chunkie)** · [live](https://concept-collection.github.io/numbl-chunkie/)
+
+## Matrix multiplication benchmark
+
+Here's a benchmark of matrix-matrix multiply (GEMM) in the browser across several implementations: a plain JavaScript loop, WebGPU, hand-written C compiled to WASM (SIMD and threads), and a real BLAS (libFLAME) compiled to WASM, with a native reference for comparison.
+
+- **[matmul-bench](https://github.com/concept-collection/matmul-bench)** · [live](https://concept-collection.github.io/matmul-bench/)
+
+## Lazy reading of remote HDF5 files
+
+Here's a demo of reading large remote HDF5 files, such as [NWB](https://www.nwb.org/) neurophysiology files, directly in the browser using HTTP range requests, with no full download and no backend. It shows the approach that [neurosift](https://neurosift.app/) uses to browse these files.
+
+- **[remote-hdf5-lazy-read](https://github.com/concept-collection/remote-hdf5-lazy-read)** · [live](https://concept-collection.github.io/remote-hdf5-lazy-read/)
 
 ## Scientific data compression
 
@@ -149,7 +70,68 @@ Utilities and starting points for building your own
   ([results](https://concept-collection.github.io/ephys_compression_tests/)).
   Compression benchmarks for electrophysiology recordings.
 
-## Physics & quantum systems
+## Other projects
+
+### numbl platform: templates & tooling
+
+Utilities and starting points for building your own
+[numbl](https://numbl.org) projects.
+
+- **[numbl-figure-viewer](https://github.com/concept-collection/numbl-figure-viewer)**
+  ([live](https://concept-collection.github.io/numbl-figure-viewer/)).
+  Open and explore a figure exported from numbl, including its underlying data.
+
+### Peer-to-peer shared state
+
+- **[hitandrun-commonview](https://github.com/concept-collection/hitandrun-commonview)**
+  ([live](https://concept-collection.github.io/hitandrun-commonview/)).
+  The hit-and-run figure with a single live view shared by all visitors over a
+  WebRTC mesh; one peer runs the sampler via numbl and broadcasts to the rest.
+- **[commonview](https://github.com/concept-collection/commonview)**
+  ([live](https://concept-collection.github.io/commonview/)).
+  A minimal peer-to-peer page where every visitor shares one state (a counter):
+  nostr discovery, a WebRTC mesh, and a central-peer authority. The basis for
+  hitandrun-commonview.
+
+### Geometry, meshing & PDE solvers
+
+- **[mesh-studio](https://github.com/concept-collection/mesh-studio)**
+  ([live](https://concept-collection.github.io/mesh-studio/)).
+  Build CAD primitives or import STEP/IGES with
+  [OpenCASCADE.js](https://ocjs.org/), then inspect them in 3D — including each
+  face's true NURBS surface (polynomials on faces), not just its triangulation.
+- **[mesh-converter](https://github.com/concept-collection/mesh-converter)**
+  ([live](https://concept-collection.github.io/mesh-converter/)).
+  Convert meshes between 19 formats (PLY, OBJ, STL, VTK, Gmsh, XDMF, …) with
+  [meshio](https://github.com/nschloe/meshio) running in-browser on Pyodide;
+  inspect meshes in 3D and see what a lossy export would drop.
+- **[qhull-wasm-demo](https://github.com/concept-collection/qhull-wasm-demo)**
+  ([live](https://concept-collection.github.io/qhull-wasm-demo/)).
+  Demos and benchmarks for [qhull-wasm](https://github.com/magland/qhull-wasm),
+  which compiles [Qhull](http://www.qhull.org) to WebAssembly. Includes 2-D
+  Delaunay triangulation, 3-D convex hull, and a Delaunay benchmark with
+  matching scripts for MATLAB, Octave, and numbl.
+- **[numbl-distmesh](https://github.com/concept-collection/numbl-distmesh)**
+  ([live](https://concept-collection.github.io/numbl-distmesh/)).
+  Every example from Persson and Strang's
+  [DistMesh](https://github.com/popersson/DistMesh), meshing 2-D regions and
+  surfaces from signed distance functions.
+- **[abc-step-1000](https://github.com/concept-collection/abc-step-1000)**
+  ([live](https://concept-collection.github.io/abc-step-1000/)).
+  The first 1000 STEP files from the
+  [ABC dataset](https://deep-geometry.github.io/abc-dataset/) of CAD models
+  (Koch et al., CVPR 2019), served gzip-compressed with a JSON manifest for
+  direct download.
+
+### Neurophysiology data & remote access
+
+- **[dandiset_000986](https://github.com/concept-collection/dandiset_000986)**
+  ([visualizations](https://concept-collection.github.io/dandiset_000986/)).
+  Reproducible figures and visualizations for
+  [DANDI Dandiset 000986](https://dandiarchive.org/dandiset/000986), a set of
+  mouse auditory cortex recordings.
+
+### Physics & quantum systems
 
 - **[numbl-quantum-optics](https://github.com/concept-collection/numbl-quantum-optics)**
   ([live](https://concept-collection.github.io/numbl-quantum-optics/)).
@@ -163,14 +145,14 @@ Utilities and starting points for building your own
   dynamics, cavity-QED phase transitions, and Lindblad and non-Markovian
   evolution.
 
-## Image processing
+### Image processing
 
 - **[numbl-image-filter](https://github.com/concept-collection/numbl-image-filter)**
   ([live](https://concept-collection.github.io/numbl-image-filter/)).
   Upload an image, write a MATLAB-syntax filter, and run it on the image in the
   browser.
 
-## Number theory & visual math
+### Number theory & visual math
 
 - **[finite-field-visualizer](https://github.com/concept-collection/finite-field-visualizer)**
   ([live](https://concept-collection.github.io/finite-field-visualizer/)).
