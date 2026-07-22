@@ -159,3 +159,7 @@ Utilities and starting points for building your own
   ([live](https://concept-collection.github.io/gcd-visualizer/)).
   A heatmap of the greatest common divisor of every pair (i, j), laid out as a
   color-coded table.
+- **[random-points-in-disk](https://github.com/concept-collection/random-points-in-disk)**
+  ([live](https://concept-collection.github.io/random-points-in-disk/)).
+  How many random points does it take before a disk looks like a disk? Voxel-density
+  heatmaps of uniform random sampling, next to the 1/&radic;&mu; noise prediction.
