@@ -76,6 +76,10 @@ Utilities and starting points for building your own
 
 ### Peer-to-peer shared state
 
+- **[commoncall](https://github.com/concept-collection/commoncall)**
+  ([live](https://concept-collection.github.io/commoncall/)).
+  Serverless video calls: enter an ID, see who else is on the page, and call
+  them — call setup rides over nostr relays, media flows peer-to-peer via WebRTC.
 - **[hitandrun-commonview](https://github.com/concept-collection/hitandrun-commonview)**
   ([live](https://concept-collection.github.io/hitandrun-commonview/)).
   The hit-and-run figure with a single live view shared by all visitors over a
