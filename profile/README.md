@@ -81,6 +81,11 @@ Utilities and starting points for building your own
   Serverless group video calls: pick a room name, share the link, and everyone
   in the room is connected over a full WebRTC mesh (up to 8 people), with
   room-wide shared settings.
+- **[commonroom-recorder](https://github.com/concept-collection/commonroom-recorder)**
+  ([run with npx](https://concept-collection.github.io/commonroom-recorder/)).
+  Command-line bot that joins a commonroom call as a visible muted participant
+  and records each participant's audio (plus the chat) to files for
+  transcription.
 - **[commoncall](https://github.com/concept-collection/commoncall)**
   ([live](https://concept-collection.github.io/commoncall/)).
   Serverless video calls: enter an ID, see who else is on the page, and call
