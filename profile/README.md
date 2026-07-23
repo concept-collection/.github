@@ -140,6 +140,11 @@ Utilities and starting points for building your own
 
 ### Physics & quantum systems
 
+- **[mri-spins](https://github.com/concept-collection/mri-spins)**
+  ([live](https://concept-collection.github.io/mri-spins/)).
+  Interactive MRI physics: a 3D sample of spins evolving under the Bloch
+  equations, with RF pulses, gradients, relaxation, a live signal trace, and a
+  spoiled gradient echo sequence with scanner-like gradient sounds.
 - **[numbl-quantum-optics](https://github.com/concept-collection/numbl-quantum-optics)**
   ([live](https://concept-collection.github.io/numbl-quantum-optics/)).
   Runnable scripts accompanying the article "Quantum optics in MATLAB"
