@@ -76,6 +76,11 @@ Utilities and starting points for building your own
 
 ### Peer-to-peer shared state
 
+- **[commonroom](https://github.com/concept-collection/commonroom)**
+  ([live](https://concept-collection.github.io/commonroom/)).
+  Serverless group video calls: pick a room name, share the link, and everyone
+  in the room is connected over a full WebRTC mesh (up to 8 people), with
+  room-wide shared settings.
 - **[commoncall](https://github.com/concept-collection/commoncall)**
   ([live](https://concept-collection.github.io/commoncall/)).
   Serverless video calls: enter an ID, see who else is on the page, and call
