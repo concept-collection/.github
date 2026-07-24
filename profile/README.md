@@ -45,9 +45,10 @@ Here are a couple of VS Code–style IDEs that run entirely in the browser: one 
 
 ## MRI pulse sequences
 
-[Pulseq](https://pulseq.github.io/) is an open framework for defining MRI pulse sequences. Here you can write pulseq sequences in MATLAB syntax and run them in the browser via numbl to generate a `.seq` file, or upload and interactively explore an existing one.
+[Pulseq](https://pulseq.github.io/) is an open framework for defining MRI pulse sequences. Here you can write pulseq sequences in MATLAB syntax and run them in the browser via numbl to generate a `.seq` file, upload and interactively explore an existing one, or simulate one on a digital phantom to see the raw k-space it acquires.
 
 - **[seqlab](https://github.com/concept-collection/seqlab)** · [live](https://concept-collection.github.io/seqlab/)
+- **[mri-scanner](https://github.com/concept-collection/mri-scanner)** · [live](https://concept-collection.github.io/mri-scanner/)
 
 ## Matrix multiplication benchmark
 
