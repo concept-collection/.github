@@ -43,6 +43,12 @@ Here are a couple of VS Code–style IDEs that run entirely in the browser: one 
 
 - **[numbl-chunkie](https://github.com/concept-collection/numbl-chunkie)** · [live](https://concept-collection.github.io/numbl-chunkie/)
 
+## MRI pulse sequences
+
+[Pulseq](https://pulseq.github.io/) is an open framework for defining MRI pulse sequences. Here you can write pulseq sequences in MATLAB syntax and run them in the browser via numbl to generate a `.seq` file, or upload and interactively explore an existing one.
+
+- **[seqlab](https://github.com/concept-collection/seqlab)** · [live](https://concept-collection.github.io/seqlab/)
+
 ## Matrix multiplication benchmark
 
 Here's a benchmark of matrix-matrix multiply (GEMM) in the browser across several implementations: a plain JavaScript loop, WebGPU, hand-written C compiled to WASM (SIMD and threads), and a real BLAS (libFLAME) compiled to WASM, with a native reference for comparison.
