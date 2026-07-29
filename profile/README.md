@@ -50,6 +50,13 @@ Here are a couple of VS Code–style IDEs that run entirely in the browser: one 
 - **[seqlab](https://github.com/concept-collection/seqlab)** · [live](https://concept-collection.github.io/seqlab/)
 - **[mri-scanner](https://github.com/concept-collection/mri-scanner)** · [live](https://concept-collection.github.io/mri-scanner/)
 
+## Spherical harmonics on the GPU
+
+Here are spherical harmonic transforms reimplemented from scratch as WebGPU compute shaders, modeled on [SHTNS](https://nschaeff.bitbucket.io/shtns/), together with a live reaction-diffusion solver built on them: Turing patterns forming on a sphere, with diffusion handled implicitly in spectral space where the Laplace-Beltrami operator is diagonal.
+
+- **[shtns-webgpu](https://github.com/concept-collection/shtns-webgpu)** · [live](https://concept-collection.github.io/shtns-webgpu/)
+- **[turing-sphere](https://github.com/concept-collection/turing-sphere)** · [live](https://concept-collection.github.io/turing-sphere/)
+
 ## Matrix multiplication benchmark
 
 Here's a benchmark of matrix-matrix multiply (GEMM) in the browser across several implementations: a plain JavaScript loop, WebGPU, hand-written C compiled to WASM (SIMD and threads), and a real BLAS (libFLAME) compiled to WASM, with a native reference for comparison.
