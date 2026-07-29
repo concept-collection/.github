@@ -71,9 +71,10 @@ Here's a demo of reading large remote HDF5 files, such as [NWB](https://www.nwb.
 
 ## Scientific data compression
 
-Here are a few projects on compressing scientific data: a step-by-step visualizer for the [Asymmetric Numeral Systems (ANS)](https://ieeexplore.ieee.org/abstract/document/7170048) entropy-coding algorithm, a framework for benchmarking compression algorithms on scientific data arrays, and compression benchmarks for electrophysiology recordings.
+Here are a few projects on compressing scientific data: a step-by-step visualizer for the [Asymmetric Numeral Systems (ANS)](https://ieeexplore.ieee.org/abstract/document/7170048) entropy-coding algorithm, an interactive study of how compressible quantized noisy time series are, a framework for benchmarking compression algorithms on scientific data arrays, and compression benchmarks for electrophysiology recordings.
 
 - **[ans-visualizer](https://github.com/concept-collection/ans-visualizer)** · [live](https://concept-collection.github.io/ans-visualizer/)
+- **[timeseries-compressibility](https://github.com/concept-collection/timeseries-compressibility)** · [live](https://concept-collection.github.io/timeseries-compressibility/)
 - **[benchcompress](https://github.com/concept-collection/benchcompress)** · [results](https://concept-collection.github.io/benchcompress/) · [paper (WIP)](https://concept-collection.github.io/benchcompress/paper)
 - **[ephys_compression_tests](https://github.com/concept-collection/ephys_compression_tests)** · [results](https://concept-collection.github.io/ephys_compression_tests/)
 
