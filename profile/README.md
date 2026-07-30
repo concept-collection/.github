@@ -78,6 +78,12 @@ Here are a few projects on compressing scientific data: a step-by-step visualize
 - **[benchcompress](https://github.com/concept-collection/benchcompress)** · [results](https://concept-collection.github.io/benchcompress/) · [paper (WIP)](https://concept-collection.github.io/benchcompress/paper)
 - **[ephys_compression_tests](https://github.com/concept-collection/ephys_compression_tests)** · [results](https://concept-collection.github.io/ephys_compression_tests/)
 
+## Speech to text in the browser
+
+Here's a dictation notepad that transcribes as you speak and never sends your audio anywhere: Whisper and Moonshine run locally via [transformers.js](https://github.com/huggingface/transformers.js), on WebGPU where it's available. The transcript accumulates into a document you can edit and copy.
+
+- **[voicenote](https://github.com/concept-collection/voicenote)** · [live](https://concept-collection.github.io/voicenote/)
+
 ## Other projects
 
 ### numbl platform: templates & tooling
