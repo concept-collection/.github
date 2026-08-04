@@ -57,6 +57,12 @@ Here are spherical harmonic transforms reimplemented from scratch as WebGPU comp
 - **[shtns-webgpu](https://github.com/concept-collection/shtns-webgpu)** · [live](https://concept-collection.github.io/shtns-webgpu/)
 - **[turing-sphere](https://github.com/concept-collection/turing-sphere)** · [live](https://concept-collection.github.io/turing-sphere/)
 
+## MATLAB scripts on WebGPU
+
+A sandbox that compiles MATLAB-syntax scripts to fused WebGPU compute kernels and times them with the script's own `tic`/`toc` — paste the same script into real MATLAB to compare. Built on numbl's compiler front end.
+
+- **[math-webgpu-sandbox](https://github.com/concept-collection/math-webgpu-sandbox)** · [live](https://concept-collection.github.io/math-webgpu-sandbox/)
+
 ## Matrix multiplication benchmark
 
 Here's a benchmark of matrix-matrix multiply (GEMM) in the browser across several implementations: a plain JavaScript loop, WebGPU, hand-written C compiled to WASM (SIMD and threads), and a real BLAS (libFLAME) compiled to WASM, with a native reference for comparison.
