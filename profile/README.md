@@ -52,10 +52,12 @@ Here are a couple of VS Code–style IDEs that run entirely in the browser: one 
 
 ## Spherical harmonics on the GPU
 
-Here are spherical harmonic transforms reimplemented from scratch as WebGPU compute shaders, modeled on [SHTNS](https://nschaeff.bitbucket.io/shtns/), together with a live reaction-diffusion solver built on them: Turing patterns forming on a sphere, with diffusion handled implicitly in spectral space where the Laplace-Beltrami operator is diagonal.
+Here are spherical harmonic transforms reimplemented from scratch as WebGPU compute shaders, modeled on [SHTNS](https://nschaeff.bitbucket.io/shtns/), together with a live reaction-diffusion solver built on them: Turing patterns forming on a sphere, with diffusion handled implicitly in spectral space where the Laplace-Beltrami operator is diagonal. turing-surface extends the solver from the round sphere to closed surfaces given by spherical-harmonic embeddings, and turing-surface-cache narrows it to a discrete menu of parameter choices whose solutions at a chosen end time are shared between all visitors through a cloud cache.
 
 - **[shtns-webgpu](https://github.com/concept-collection/shtns-webgpu)** · [live](https://concept-collection.github.io/shtns-webgpu/)
 - **[turing-sphere](https://github.com/concept-collection/turing-sphere)** · [live](https://concept-collection.github.io/turing-sphere/)
+- **[turing-surface](https://github.com/concept-collection/turing-surface)** · [live](https://concept-collection.github.io/turing-surface/)
+- **[turing-surface-cache](https://github.com/concept-collection/turing-surface-cache)** · [live](https://concept-collection.github.io/turing-surface-cache/)
 
 ## MATLAB scripts on WebGPU
 
