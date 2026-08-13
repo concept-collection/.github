@@ -2,51 +2,32 @@
 
 This is a collection of random small projects and demos, most of which can be run entirely in the web browser (client side). Many of them are centered around the [numbl project](https://numbl.org).
 
-## MATLAB syntax in Jupyter, all in the browser
+## Interactive numerical methods
 
-Here's a proof of concept for running MATLAB syntax in Jupyter entirely client side (no kernel, no server). It uses numbl and JupyterLite.
+Methods from the numerical literature that you can watch run and adjust, computed client side by numbl (MATLAB syntax in the browser).
 
-- **[jupyterlite-numbl-kernel](https://github.com/concept-collection/jupyterlite-numbl-kernel)** · [live](https://concept-collection.github.io/jupyterlite-numbl-kernel/)
+- **[hitandrun-interactive](https://github.com/concept-collection/hitandrun-interactive)** · [live](https://concept-collection.github.io/hitandrun-interactive/#figure/sampler) · the hit-and-run MCMC sampler
+- **[walnuts-interactive](https://github.com/concept-collection/walnuts-interactive)** · [live](https://concept-collection.github.io/walnuts-interactive/#figure/sampler) · the WALNUTS sampler, running the paper's own companion MATLAB code
+- **[barycentric-rational](https://github.com/concept-collection/barycentric-rational)** · [live](https://concept-collection.github.io/barycentric-rational/) · Floater-Hormann rational interpolation, pole-free on any nodes; the method is a MATLAB script you edit in the page
 
-## Interactive MCMC samplers
+## numbl tooling: Jupyter, embedding, IDEs
 
-Here are a couple of demonstrations of MCMC samplers that you can watch run. They use numbl (MATLAB syntax in the browser) to do the sampling client-side in the browser. In the case of WALNUTS (the within-orbit adaptive leapfrog No-U-Turn Sampler), we use the exact MATLAB code that is a companion to the paper.
+Ways to write, run, and share MATLAB-syntax code in the browser, all client side (plus a Stan variant of the IDE).
 
-- **[hitandrun-interactive](https://github.com/concept-collection/hitandrun-interactive)** · [live](https://concept-collection.github.io/hitandrun-interactive/#figure/sampler)
-- **[walnuts-interactive](https://github.com/concept-collection/walnuts-interactive)** · [live](https://concept-collection.github.io/walnuts-interactive/#figure/sampler)
+- **[jupyterlite-numbl-kernel](https://github.com/concept-collection/jupyterlite-numbl-kernel)** · [live](https://concept-collection.github.io/jupyterlite-numbl-kernel/) · MATLAB syntax in Jupyter, no kernel server
+- **[numbl-embed-example](https://github.com/concept-collection/numbl-embed-example)** · [live](https://concept-collection.github.io/numbl-embed-example/) · embed numbl in your own page
+- **[numbl-project-example](https://github.com/concept-collection/numbl-project-example)** · [live](https://concept-collection.github.io/numbl-project-example/) · host a numbl project as a static site
+- **[numbl-web-ide](https://github.com/concept-collection/numbl-web-ide)** · [live](https://concept-collection.github.io/numbl-web-ide/) · a VS Code–style IDE for MATLAB syntax
+- **[stan-web-ide](https://github.com/concept-collection/stan-web-ide)** · [live](https://concept-collection.github.io/stan-web-ide/) · the same IDE for Stan
+- **[numbl-figure-viewer](https://github.com/concept-collection/numbl-figure-viewer)** · [live](https://concept-collection.github.io/numbl-figure-viewer/) · open a figure exported from numbl, underlying data included
 
-## Barycentric rational interpolation
+## surfacefun & chunkie examples
 
-An interactive companion to Floater and Hormann's family of rational interpolants, which have no poles anywhere on the real line and reach approximation order *h*<sup>*d*+1</sup> however the interpolation points are distributed. The method is a MATLAB-syntax script you edit in the page; swap in weights that do not alternate in sign and watch the poles appear.
-
-- **[barycentric-rational](https://github.com/concept-collection/barycentric-rational)** · [live](https://concept-collection.github.io/barycentric-rational/)
-
-## Embedding & hosting numbl projects
-
-Here are a couple of projects that let you embed or host your own numbl/MATLAB projects entirely client side.
-
-- **[numbl-embed-example](https://github.com/concept-collection/numbl-embed-example)** · [live](https://concept-collection.github.io/numbl-embed-example/)
-- **[numbl-project-example](https://github.com/concept-collection/numbl-project-example)** · [live](https://concept-collection.github.io/numbl-project-example/)
-
-## VS Code–style IDEs
-
-Here are a couple of VS Code–style IDEs that run entirely in the browser: one for MATLAB syntax (via numbl), one for Stan.
-
-- **[numbl-web-ide](https://github.com/concept-collection/numbl-web-ide)** · [live](https://concept-collection.github.io/numbl-web-ide/)
-- **[stan-web-ide](https://github.com/concept-collection/stan-web-ide)** · [live](https://concept-collection.github.io/stan-web-ide/)
-
-## surfacefun examples
-
-[Surfacefun](https://surfacefun.readthedocs.io/en/latest/) is a MATLAB package for computing with functions defined on surfaces and solving PDEs on them to high order. Here are some examples that run surfacefun via numbl in the browser.
+[Surfacefun](https://surfacefun.readthedocs.io/en/latest/) (functions and PDEs on surfaces) and [chunkie](https://chunkie.readthedocs.io/en/latest/) (boundary integral equations in 2D) are MATLAB packages; these examples run them in the browser via numbl.
 
 - **[numbl-surfacefun-intro](https://github.com/concept-collection/numbl-surfacefun-intro)** · [live](https://concept-collection.github.io/numbl-surfacefun-intro/)
 - **[surfacefun-interactive](https://github.com/concept-collection/surfacefun-interactive)** · [live](https://concept-collection.github.io/surfacefun-interactive/)
 - **[mesh-pde-solver](https://github.com/concept-collection/mesh-pde-solver)** · [live](https://concept-collection.github.io/mesh-pde-solver/)
-
-## chunkie examples
-
-[Chunkie](https://chunkie.readthedocs.io/en/latest/) is a MATLAB package for solving boundary integral equations in two dimensions. Here are some examples that run chunkie via numbl in the browser.
-
 - **[numbl-chunkie](https://github.com/concept-collection/numbl-chunkie)** · [live](https://concept-collection.github.io/numbl-chunkie/)
 
 ## MRI pulse sequences
@@ -65,17 +46,12 @@ Here are spherical harmonic transforms reimplemented from scratch as WebGPU comp
 - **[turing-surface](https://github.com/concept-collection/turing-surface)** · [live](https://concept-collection.github.io/turing-surface/)
 - **[turing-surface-cache](https://github.com/concept-collection/turing-surface-cache)** · [live](https://concept-collection.github.io/turing-surface-cache/)
 
-## MATLAB scripts on WebGPU
+## Browser compute benchmarks
 
-A sandbox that compiles MATLAB-syntax scripts to fused WebGPU compute kernels and times them with the script's own `tic`/`toc` — paste the same script into real MATLAB to compare. Built on numbl's compiler front end.
+How fast the browser can crunch numbers.
 
-- **[math-webgpu-sandbox](https://github.com/concept-collection/math-webgpu-sandbox)** · [live](https://concept-collection.github.io/math-webgpu-sandbox/)
-
-## Matrix multiplication benchmark
-
-Here's a benchmark of matrix-matrix multiply (GEMM) in the browser across several implementations: a plain JavaScript loop, WebGPU, hand-written C compiled to WASM (SIMD and threads), and a real BLAS (libFLAME) compiled to WASM, with a native reference for comparison.
-
-- **[matmul-bench](https://github.com/concept-collection/matmul-bench)** · [live](https://concept-collection.github.io/matmul-bench/)
+- **[math-webgpu-sandbox](https://github.com/concept-collection/math-webgpu-sandbox)** · [live](https://concept-collection.github.io/math-webgpu-sandbox/) · MATLAB-syntax scripts compiled to fused WebGPU kernels, timed with the script's own `tic`/`toc`; paste the same script into real MATLAB to compare
+- **[matmul-bench](https://github.com/concept-collection/matmul-bench)** · [live](https://concept-collection.github.io/matmul-bench/) · GEMM in plain JavaScript, WebGPU, SIMD and threaded WASM, and a WASM BLAS, with a native reference
 
 ## Lazy reading of remote HDF5 files
 
@@ -99,15 +75,6 @@ Here's a dictation notepad that transcribes as you speak and never sends your au
 - **[voicenote](https://github.com/concept-collection/voicenote)** · [live](https://concept-collection.github.io/voicenote/)
 
 ## Other projects
-
-### numbl platform: templates & tooling
-
-Utilities and starting points for building your own
-[numbl](https://numbl.org) projects.
-
-- **[numbl-figure-viewer](https://github.com/concept-collection/numbl-figure-viewer)**
-  ([live](https://concept-collection.github.io/numbl-figure-viewer/)).
-  Open and explore a figure exported from numbl, including its underlying data.
 
 ### Peer-to-peer shared state
 
