@@ -15,6 +15,12 @@ Here are a couple of demonstrations of MCMC samplers that you can watch run. The
 - **[hitandrun-interactive](https://github.com/concept-collection/hitandrun-interactive)** · [live](https://concept-collection.github.io/hitandrun-interactive/#figure/sampler)
 - **[walnuts-interactive](https://github.com/concept-collection/walnuts-interactive)** · [live](https://concept-collection.github.io/walnuts-interactive/#figure/sampler)
 
+## Barycentric rational interpolation
+
+An interactive companion to Floater and Hormann's family of rational interpolants, which have no poles anywhere on the real line and reach approximation order *h*<sup>*d*+1</sup> however the interpolation points are distributed. The method is a MATLAB-syntax script you edit in the page; swap in weights that do not alternate in sign and watch the poles appear.
+
+- **[barycentric-rational](https://github.com/concept-collection/barycentric-rational)** · [live](https://concept-collection.github.io/barycentric-rational/)
+
 ## Embedding & hosting numbl projects
 
 Here are a couple of projects that let you embed or host your own numbl/MATLAB projects entirely client side.
