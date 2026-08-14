@@ -76,6 +76,14 @@ Here's a dictation notepad that transcribes as you speak and never sends your au
 
 ## Other projects
 
+### Documents
+
+- **[mdshare](https://github.com/concept-collection/mdshare)**
+  ([live](https://concept-collection.github.io/mdshare/)).
+  A split-pane markdown editor (LaTeX math, highlighted code, mermaid
+  diagrams) where the document is compressed into the URL itself, so sharing
+  is just copying the link; no server, nothing uploaded.
+
 ### Peer-to-peer shared state
 
 - **[commonroom](https://github.com/concept-collection/commonroom)**
