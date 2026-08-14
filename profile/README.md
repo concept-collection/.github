@@ -147,6 +147,11 @@ Here's a dictation notepad that transcribes as you speak and never sends your au
   Interactive MRI physics: a 3D sample of spins evolving under the Bloch
   equations, with RF pulses, gradients, relaxation, a live signal trace, and a
   spoiled gradient echo sequence with scanner-like gradient sounds.
+- **[acoustic-scattering-2d](https://github.com/concept-collection/acoustic-scattering-2d)**.
+  2D acoustic wave scattering off a room, a disk, slits, or a lens, in real
+  physical units: a MATLAB time-stepper compiled through numbl to WebGPU
+  compute kernels. Drop a microphone anywhere in the field and listen back in
+  real time, at the pitch a microphone there would actually have heard.
 - **[numbl-quantum-optics](https://github.com/concept-collection/numbl-quantum-optics)**
   ([live](https://concept-collection.github.io/numbl-quantum-optics/)).
   Runnable scripts accompanying the article "Quantum optics in MATLAB"
