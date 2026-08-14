@@ -157,10 +157,14 @@ Here's a dictation notepad that transcribes as you speak and never sends your au
   spoiled gradient echo sequence with scanner-like gradient sounds.
 - **[acoustic-scattering-2d](https://github.com/concept-collection/acoustic-scattering-2d)**
   ([live](https://concept-collection.github.io/acoustic-scattering-2d/)).
-  2D acoustic wave scattering off a room, a disk, slits, or a lens, in real
-  physical units: a MATLAB time-stepper compiled through numbl to WebGPU
-  compute kernels. Drop a microphone anywhere in the field and listen back in
-  real time, at the pitch a microphone there would actually have heard.
+  Sound scattering off a room, a disk, slits, or a lens, solved live on the
+  GPU; the solver and the medium are MATLAB you can edit in the page. Drop a
+  microphone anywhere and listen back.
+- **[acoustic-scattering-3d](https://github.com/concept-collection/acoustic-scattering-3d)**
+  ([live](https://concept-collection.github.io/acoustic-scattering-3d/)).
+  The same physics in three dimensions: spheres, a circular aperture, or a
+  random medium, volume-rendered with a clip plane to see inside, microphone
+  included.
 - **[numbl-quantum-optics](https://github.com/concept-collection/numbl-quantum-optics)**
   ([live](https://concept-collection.github.io/numbl-quantum-optics/)).
   Runnable scripts accompanying the article "Quantum optics in MATLAB"
