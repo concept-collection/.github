@@ -165,6 +165,10 @@ Here's a dictation notepad that transcribes as you speak and never sends your au
   The same physics in three dimensions: spheres, a circular aperture, or a
   random medium, volume-rendered with a clip plane to see inside, microphone
   included.
+- **[dulcimer](https://github.com/concept-collection/dulcimer)**
+  ([live](https://concept-collection.github.io/dulcimer/)).
+  A plucked string and the box it sounds over, as two coupled wave equations
+  in editable MATLAB compiled to WebGPU. Render a note and listen to it.
 - **[numbl-quantum-optics](https://github.com/concept-collection/numbl-quantum-optics)**
   ([live](https://concept-collection.github.io/numbl-quantum-optics/)).
   Runnable scripts accompanying the article "Quantum optics in MATLAB"
