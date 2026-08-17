@@ -112,6 +112,12 @@ Here's a dictation notepad that transcribes as you speak and never sends your au
 
 ### Geometry, meshing & PDE solvers
 
+- **[fastandaccurate](https://github.com/concept-collection/fastandaccurate)**
+  ([live](https://concept-collection.github.io/fastandaccurate/)).
+  Speed and accuracy benchmarks for PDE solvers: problems posed in the
+  continuum with exact ground truth, compared by work-precision curves,
+  runnable in the browser or from the command line, with results submitted
+  by pull request.
 - **[mesh-studio](https://github.com/concept-collection/mesh-studio)**
   ([live](https://concept-collection.github.io/mesh-studio/)).
   Build CAD primitives or import STEP/IGES with
